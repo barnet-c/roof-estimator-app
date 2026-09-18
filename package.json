@@ -9,7 +9,7 @@
     "dev:server": "node --watch server/index.js",
     "dev:web": "vite",
     "build": "vite build",
-    "start": "cross-env NODE_ENV=production node server/index.js"
+    "start": "node server/index.js"
   },
   "engines": {
     "node": ">=20"
